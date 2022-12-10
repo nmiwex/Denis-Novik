@@ -116,7 +116,7 @@ a {
 
 .section-header__lang-btn_eng, .modal__lang-btn_eng {
   padding-left: 6px;
-  border-left: 3px solid #000;
+  border-left: 2px solid #000;
 }
 
 .section-header__burger {
@@ -408,6 +408,12 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #828282;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-skills__program-rating {
+    width: 137px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
